@@ -1,8 +1,15 @@
-import React from 'react'
 
-const Page = () => {
+import React from 'react'
+import Counter from "@/app/_components/counter";
+
+export default async function Page() {
+
     return (
-        <div>Cabin Page</div>
+        <div>
+            <div>Cabin Page</div>
+        </div>
     )
 }
-export default Page
+
+
+
