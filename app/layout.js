@@ -4,13 +4,17 @@ import Logo from "@/app/_components/Logo";
 import "@/app/_style/globals.css"
 
 export const metadata ={
-  title: "The Wild oasis",
+  title:{
+  template: "%s / The Wild Oasis",
+  defaultTitle: "Welcome / The Wild Oasis",
+  },
+  description:"Luxury Cabin Hotel"
 }
 
 export default function RootLayout({children}) {
   return(
   <html lang='en'>
-    <body className="bg-blue-900 text-gray-50 min-h-screen">
+    <body className="bg-primary-950 text-gray-50 min-h-screen">
       <header>
         <Logo/>
       </header>
