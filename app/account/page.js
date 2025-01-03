@@ -4,7 +4,11 @@ export const metadata={
 }
 const Page = () => {
     return (
-        <div>Account Page</div>
+        <div>
+            <h2 className="font-semibold text-2xl text-accent-400 mb-7">
+            Helllo Hengg..!
+            </h2>
+        </div>
     )
 }
 export default Page

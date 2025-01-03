@@ -1,4 +1,9 @@
 import SelectCountry from "@/app/_components/SelectCountry";
+import Image from "next/image";
+
+export const metadata={
+  title: "Update Profile",
+}
 
 export default function Page() {
   // CHANGE
@@ -60,8 +65,8 @@ export default function Page() {
         </div>
 
         <div className="flex justify-end items-center gap-6">
-          <button className="bg-accent-500 px-8 py-4 text-primary-800 font-semibold hover:bg-accent-600 transition-all disabled:cursor-not-allowed disabled:bg-gray-500 disabled:text-gray-300">
-            Update profile
+          <button className="bg-accent-500 px-8 py-4 text-primary-800 font-semibold hover:bg-accent-600 transition-all disabled:cursor-not-allowed disabled:bg-gray-500 disabled:text-gray-300 rounded-2xl">
+            Update
           </button>
         </div>
       </form>
