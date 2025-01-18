@@ -10,7 +10,7 @@ export default function Home() {
 
   return (
       <main className="mt-24">
-          <img src={bg}
+          <image src={bg}
                  fill
                  className={"object-cover object-top"}
                  placeholder={"blur"}
